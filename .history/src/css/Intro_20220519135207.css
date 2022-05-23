@@ -1,0 +1,8 @@
+/* :root {
+    --black: #0d0c22;
+    --red: red;
+} */
+
+.intro {
+ color: var(--red);
+}

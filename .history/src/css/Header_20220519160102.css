@@ -1,0 +1,33 @@
+@import url(./variable.css);
+
+.header {
+    height: 10vh;
+    width: 100vw;
+    
+}
+.header__content {
+    display: flex;
+
+    height: 100%;
+    width: 75vw;
+
+    margin: 0 auto;
+} 
+.header__content div {
+    height: 100%;
+    width: 25vw;
+
+    line-height: 10vh;
+}
+.header__one {
+
+}
+.header__two {
+    text-align: center
+}
+.header__two span {
+    margin: 20px;
+}
+.header__three {
+    text-align: right;
+}

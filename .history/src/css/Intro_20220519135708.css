@@ -1,0 +1,8 @@
+/* :root {
+    --black: #0d0c22;
+    --red: red;
+} */
+@import url(./variable.css);
+.intro {
+ color: var(--red);
+}

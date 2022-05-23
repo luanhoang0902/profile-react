@@ -1,0 +1,17 @@
+.technologies {
+    height: 100vh;
+    width: 75vw;
+
+    
+    margin: 0 auto;
+    padding-top: 10vh;
+
+    text-align: center;
+}
+.technologies u {
+    font-size: 40px;
+}
+.technologies__content {
+    width: 75vw;
+    text-align: left;
+}

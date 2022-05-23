@@ -1,0 +1,78 @@
+.home {
+    height: 100vh;
+    width: 75vw;
+
+    
+    margin: 0 auto;
+    padding-top: 10vh;
+    text-align: center;
+}
+.home-content {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+.home-image{
+    position: relative;
+    height: 80vh;
+    width: 30vw;
+
+    border-radius: 20px;
+    border: 2px solid var(--gray);
+    box-shadow: 10px 5px 10px var(--gray);
+
+}
+.home-image img {
+    height: 100%;
+    width: 100%;
+
+    border-radius: 20px;
+    object-fit: cover;  
+    transition: all 0.5s ease-in-out;
+}
+.ok{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "ádasds";
+    height: 80vh;
+    width: 30vw;
+    background-color: red;
+    transform: rotateY(90deg);
+}
+.home-image:hover{
+    transform: rotateY(90deg);
+}
+.home-infomation {
+    height: 80vh;
+    width: 40vw;
+
+    border: 2px solid var(--gray);
+
+    color: var(--gray);
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+
+}
+.home-infomation span {
+    font-size: 26px;
+    font-weight: 600;
+}
+.home-infomation p {
+    padding-top: 10px;
+}
+.home-infomation b {
+
+}
+.home-infomation div {
+    margin-bottom: 20px;
+}
+.home-infomation__favorite img {
+    height:180px;
+    width:180px;
+
+    object-fit: cover;
+    margin-right: 40px;
+}

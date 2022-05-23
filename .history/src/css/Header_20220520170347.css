@@ -1,0 +1,68 @@
+@import url(./variable.css);
+
+.header {
+    position: fixed;
+
+    height: 10vh;
+    width: 100vw;
+    
+}
+.abc {
+    background-color: var(--black)
+}
+.header__content {
+    display: flex;
+
+    height: 100%;
+    width: 75vw;
+
+    margin: 0 auto;
+} 
+.header__content div {
+    height: 100%;
+    width: 25vw;
+
+    line-height: 10vh;
+}
+.header__one {
+    font-size: 30px;
+}
+.header__two {
+    display: flex;
+}
+.header__two div {
+    color: var(--gray);
+    font-size: 1.2rem;
+
+    transition: all 0.5s ease;
+    margin: 0 20px;
+}
+.header__two div:hover {
+    color: var(--white);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.header__three div:hover {
+    background-color: var(--white);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.header__three {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header__three div {
+    height: 40px;   
+    width: 40px;
+    background-color: var(--gray);
+
+    border-radius: 50%;
+    margin-left: 20px ;
+
+    color: var(--black);
+    font-size: 40px;
+    text-align: center;
+    line-height:40px;
+
+}

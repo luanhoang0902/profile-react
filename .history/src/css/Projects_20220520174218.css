@@ -1,0 +1,19 @@
+.projects {
+    height: 100vh;
+    width: 75vw;
+
+    
+    margin: 0 auto;
+    padding-top: 10vh;
+}
+.project-list {
+    height: 100%;
+    width: 100vw;
+}
+.project-list div {
+    width: 30vw;
+}
+.project-list img{
+    height: 100px;
+    width: 30vw;
+}

@@ -1,0 +1,28 @@
+.projects {
+    height: 100vh;
+    width: 75vw;
+
+    
+    margin: 0 auto;
+    padding-top: 10vh;
+
+    text-align: center;
+}
+.projects u {
+    font-size: 60px;
+
+}
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    max-height: 100%;
+    max-width: 100vw;
+
+    padding: 0 5vw;
+}
+.project-list img{
+    height: 30vh;
+    width: 30vw;
+}

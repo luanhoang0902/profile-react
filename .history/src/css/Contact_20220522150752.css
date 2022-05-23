@@ -1,0 +1,102 @@
+.contact {
+
+    height: 100vh;
+    width: 75vw;
+
+    
+    margin: 0 auto;
+    padding-top: 10vh;
+
+    text-align: center;
+
+    font-size: 26px;
+}
+.contact u {
+    font-size: 40px;
+}
+.contact-content {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.contact-img {
+    position: relative;
+    height: 50vh;
+    width: 30vw;
+
+}
+.contact-img__left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 5px;
+    background-color:blue;
+
+    animation: avtHeight 2s linear infinite linear;
+}
+.contact-img__top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color:red;
+
+    animation: avtHeight 2s linear infinite linear 2s;
+}
+.contact-img__right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 5px;
+    background-color:yellow;
+
+    animation: avtWigth 2s linear infinite linear 4s;
+}
+.contact-img__bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color:green;
+
+    animation: avtHeight 2s linear infinite linear 6s;
+}
+.contact-infomation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-box {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width:30vw;
+
+    background-color: var(--white);
+
+    color: var(--black);
+    text-align: left;
+    padding: 20px;
+
+    border-radius: 20px;
+}
+.contact-box i{
+    padding-right: 20px;
+    font-size: 40px;
+}
+
+@keyframes avtWigth {
+    to {
+        width: 100%;
+    }
+}
+@keyframes avtHeight {
+    to {
+        height: 100%;
+    }
+}
+

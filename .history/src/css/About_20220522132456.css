@@ -1,0 +1,29 @@
+.about {
+    height: 100vh;
+    width: 75vw;
+
+    
+    margin: 0 auto;
+    padding-top: 10vh;
+
+    text-align: center;
+}
+.about u {
+    font-size: 40px;
+}
+.about-content {
+    display: flex
+    justify-content: space-between;
+}
+.about-content__avatar {
+    height: 50vh;
+    width: 20vw;
+
+    background-color: red;
+}
+.about-content__infomation {
+    height: 50vh;
+    width: 50vw;
+
+    background-color: blue;
+}

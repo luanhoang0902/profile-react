@@ -1,0 +1,50 @@
+@import url(./variable.css);
+
+.header {
+    position: fixed;
+
+    height: 10vh;
+    width: 100vw;
+    
+}
+.header__content {
+    display: flex;
+
+    height: 100%;
+    width: 75vw;
+
+    margin: 0 auto;
+} 
+.header__content div {
+    height: 100%;
+    width: 25vw;
+
+    line-height: 10vh;
+}
+.header__one {
+
+}
+.header__two {
+    text-align: center
+}
+.header__two span {
+    margin: 20px;
+}
+.header__three {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header__three div {
+    height: 40px;   
+    width: 40px;
+    background-color: var(--white);
+
+    border-radius: 50%;
+    margin-left: 20px ;
+
+    color: var(--black);
+    font-size: 40px;
+    text-align: center;
+    line-height:40px;
+}

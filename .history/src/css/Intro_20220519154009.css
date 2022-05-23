@@ -1,0 +1,87 @@
+@import url(./variable.css);
+
+.intro {
+    position: fixed;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--black);
+
+    color: var(--white);
+    text-align: center;
+    line-height: 100vh;
+
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+.intro  span {
+    display: inline-block;
+}
+.text-1 {
+    display: inline-block;
+
+    height: 50px;
+    width: 50px;
+    background-color: white;
+
+    border: 5px solid var(--white);
+    border-radius: 50%;
+
+    animation: up 2s  infinite linear;
+}
+.text-2 {
+    animation: up 2s  infinite linear 0.25s;
+}
+.text-3 {
+    animation: up 2s  infinite linear 0.5s;
+}
+.text-4 {
+    animation: up 2s  infinite linear 0.75s;
+}
+.text-1 div {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+
+    border: 10px solid var(--black);
+    border-right: transparent solid 10px;
+    border-radius: 50%;
+
+    animation: xoay 5s  infinite linear;
+}
+/* .in {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+
+    border-right: 10px solid var(--black);
+    border-radius: 50%;
+} */
+
+@keyframes xoay {
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes non1 {
+    to{
+        transform: translateY(-100%);
+    }
+}

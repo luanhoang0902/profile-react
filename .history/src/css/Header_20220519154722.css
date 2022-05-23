@@ -1,0 +1,6 @@
+@import url(./variable.css);
+
+.header {
+    height: 6vh;
+    width: 100vw;
+}
