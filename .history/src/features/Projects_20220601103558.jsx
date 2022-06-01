@@ -29,14 +29,14 @@ const detail = [
     name: "Clone Nike.com",
     feature: ["Trang chủ", "Trang danh sách sản phẩm", "Trang đăng nhập", "Trang giỏ hàng"],
     technology: ["html5", "css3", "javascript", "react", "redux"],
-    demo: ""
+    demo: "https://luanhoang0902.github.io/tic-toc-toe/"
   },
   {
     id: 2,
     name: "Profile",
     feature: ["Project", "Technologies", "About", "Contaxt"],
     technology: ["html5", "css3", "javascript", "react"],
-    demo: ""
+    demo: "https://luanhoang0902.github.io/tic-toc-toe/"
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ const detail = [
     name: "Todo List",
     feature: ["Thêm công việc cần làm", "Lọc dữ liệu theo filter", "Đánh dấu những việc đã hoàn thành"],
     technology: ["html5", "css3", "javascript", "react", "redux"],
-    demo: ""
+    demo: "https://luanhoang0902.github.io/tic-toc-toe/"
   },
 ];
 function Projects(props) {
@@ -59,7 +59,7 @@ function Projects(props) {
   const controlRight = useRef();
   const [id, setId] = useState(1);
 
-  console.log(projects[id-1].dim);
+  console.log(projects[id-1].demo);
 
   const handleClickProject = (e) => {
     slider.current.style.display = "block";
@@ -102,7 +102,7 @@ function Projects(props) {
             <div className="project-list__slider-content-image">
               <img src={projects[id-1].img}></img>
               <div className="project-list__live-demo">
-                <div><a href={detail[id-1].demo} style={{textDecoration: "none", color: 'var(--white)'}}
+                <div><a href={projects[id-1].demo} style={{textDecoration: "none", color: 'var(--white)'}}
                 target="_blank" rel="noreferrer">Live Demo</a></div>
               </div>
             </div>

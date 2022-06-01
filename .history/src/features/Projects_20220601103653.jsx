@@ -29,14 +29,14 @@ const detail = [
     name: "Clone Nike.com",
     feature: ["Trang chủ", "Trang danh sách sản phẩm", "Trang đăng nhập", "Trang giỏ hàng"],
     technology: ["html5", "css3", "javascript", "react", "redux"],
-    demo: ""
+    demo: "https://luanhoang0902.github.io/tic-toc-toe/"
   },
   {
     id: 2,
     name: "Profile",
     feature: ["Project", "Technologies", "About", "Contaxt"],
     technology: ["html5", "css3", "javascript", "react"],
-    demo: ""
+    demo: "https://luanhoang0902.github.io/tic-toc-toe/"
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ const detail = [
     name: "Todo List",
     feature: ["Thêm công việc cần làm", "Lọc dữ liệu theo filter", "Đánh dấu những việc đã hoàn thành"],
     technology: ["html5", "css3", "javascript", "react", "redux"],
-    demo: ""
+    demo: "https://luanhoang0902.github.io/tic-toc-toe/"
   },
 ];
 function Projects(props) {

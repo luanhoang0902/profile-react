@@ -91,13 +91,12 @@
 .project-list__slider-content-image {
     position: relative;
 }
-
 .project-list__slider-content-image img {
     height: 70vh;
     width: 50vw;
 
     object-fit: cover;
-    /* border: 5px solid var(--gray); */
+    border: 5px solid black;
 }
 .project-list__live-demo {
     display: flex;
@@ -112,10 +111,6 @@
     width: 100%;
 
     background-color: var(--black);
-
-    opacity: 0;
-
-    transition: all 0.5s ease
 }
 .project-list__live-demo div {
 
@@ -127,9 +122,8 @@
     border-radius: 30px;
 
     line-height: 60px;
-}
-.project-list__slider-content-image:hover .project-list__live-demo {
-    opacity: 1;
+
+    display: none;
 }
 .project-list__slider-content-detail {
     height: 70vh;
@@ -142,9 +136,6 @@
     text-align: left;
 
     font-size: 20px;
-
-    /* border: 5px solid var(--gray);
-    border-left: 5px solid transparent; */
 }
 .project-list__slider-content-detail div {
     margin-bottom: 20px;
