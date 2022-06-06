@@ -15,7 +15,7 @@ function Home(props) {
         <div className="home-content__avatar">
           <div className="home-image">
             <div className="home-image__img">
-              <img src="./avatar.jpg" />
+              <img src="./avatar.JPG" alt=""/>
             </div>
             <div className="home-image__infomation">
               <p>Hoàng Văn Luân</p>
@@ -45,7 +45,7 @@ function Home(props) {
             <div>
               <u>Đi du lịch</u>
               <br />
-              <img src="./coto.png" />
+              <img src="./coto.png"  />
               <img src="./hanoi.png" />
             </div>
             <div>

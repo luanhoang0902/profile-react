@@ -41,16 +41,25 @@ const detail = [
   {
     id: 3,
     name: "Tic toc toe",
-    feature: ["X win", "Y win","Hòa", "Reset game"],
-    technology: ["html5", "css3", "javascript","react"],
+    feature: [
+    "Người nào điền được 3 ô nối nhau sẽ win", 
+    "Có 3 trường hợp xảy ra: X win, Y win, Hòa", 
+    "Khi có người thắng hoặc hòa thì hiện nút Reset game để chơi lại"
+    ],
+    technology: ["html5", "css3", "javascript"],
     demo: "https://luanhoang0902.github.io/tic-toc-toe/"
   },
   {
     id: 4,
-    name: "Todo List",
-    feature: ["Thêm công việc cần làm", "Lọc dữ liệu theo filter", "Đánh dấu những việc đã hoàn thành"],
-    technology: ["html5", "css3", "javascript", "react", "redux"],
-    demo: ""
+    name: "color-matching-game",
+    feature: [
+      "Chỉ có một chế độ, một cấp độ. Bạn cần tìm tất cả các màu phù hợp trong 30s.", 
+      "Khi một cặp màu được kết hợp, nền sẽ được cập nhật thành màu phù hợp.", 
+      "Khi trò chơi hết thời gian chờ, Game Over thông báo sẽ được hiển thị.",
+      "Nếu bạn có thể tìm thấy tất cả các màu trong vòng chưa đầy 30 giây, You win 😍thông báo sẽ được hiển thị."
+    ],
+    technology: ["html5", "css3", "javascript"],
+    demo: "https://luanhoang0902.github.io/color-matching-game/"
   },
 ];
 function Projects(props) {
@@ -102,8 +111,8 @@ function Projects(props) {
             <div className="project-list__slider-content-image">
               <img src={projects[id-1].img}></img>
               <div className="project-list__live-demo">
-                <div><a href={detail[id-1].demo} style={{textDecoration: "none", color: 'var(--white)'}}
-                target="_blank" rel="noreferrer">Live Demo</a></div>
+                <a href={detail[id-1].demo} style={{textDecoration: "none", color: 'var(--white)'}}
+                target="_blank" rel="noreferrer"><div>Live Demo</div></a>
               </div>
             </div>
             <div className="project-list__slider-content-detail">
@@ -123,7 +132,7 @@ function Projects(props) {
                 <ul class = "technology-list">
                   {detail[id - 1].technology.map((e, index) => (
                     <li >
-                      <i class={`bx bxl-${e}`}></i>
+                      <i class={`bx bxl-${e}`}></i><br/>
                       {e}
                     </li>
                   ))}

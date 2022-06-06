@@ -1,0 +1,1 @@
+export const img1 = '../../public/1.png'

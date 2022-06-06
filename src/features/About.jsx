@@ -13,7 +13,7 @@ function About(props) {
             <u>About</u>
             <div className="about-content">
                 <div className="about-content__avatar">
-                    <img src = "./1.png"/>
+                    <img src = "./avatar.jpg"/>
                 </div>
                 <div className="about-content__infomation">
                     <p>Họ tên: Hoàng Văn Luân</p>
